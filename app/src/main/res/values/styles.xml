@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Shape.Round" parent="ShapeAppearanceOverlay">
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="Shape.Cornered" parent="ShapeAppearanceOverlay">
+        <item name="cornerSize">5%</item>
+    </style>
+
+    <style name="Shape.TopCornered" parent="ShapeAppearanceOverlay">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopRight">5%</item>
+        <item name="cornerSizeTopLeft">5%</item>
+        <item name="cornerSizeBottomRight">0%</item>
+        <item name="cornerSizeBottomLeft">0%</item>
+    </style>
+
+    <style name="Shape.LeftCornered" parent="ShapeAppearanceOverlay">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopRight">0%</item>
+        <item name="cornerSizeTopLeft">5%</item>
+        <item name="cornerSizeBottomRight">0%</item>
+        <item name="cornerSizeBottomLeft">5%</item>
+    </style>
+
+</resources>
